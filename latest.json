@@ -1,0 +1,9 @@
+{
+  "versionCode": 69,
+  "versionName": "0.6.1",
+  "apkPath": "/dmwintercsp/kinto-downloads/main/Kinto_0.6.1.apk.b64",
+  "sizeBytes": 305703,
+  "sha256": "045b0a4b1669b8f5f950008c5ad38bf272dfc5c7d21af7a64f5140cec8395740",
+  "notes": "First update delivered by the in-app updater from GitHub. Same build as 0.6.0 (code 68) plus the GitHub update source - installing it proves the pipeline works.",
+  "publishedAt": "2026-11-23"
+}

@@ -1,9 +1,9 @@
 {
-  "versionCode": 76,
-  "versionName": "0.7.6",
-  "apkPath": "/dmwintercsp/kinto-downloads/main/Kinto_0.7.6.apk.b64",
-  "sizeBytes": 319611,
-  "sha256": "98eba4bb5cc97c7675a11f50d0b08bd3907910e9163afa4355e3d5483e3c380d",
-  "notes": "New: set your wallpaper through Kinto. Android blocks apps from reading the wallpaper, but setting one is wide open - so Appearance > Background now has 'Pick a photo & set as wallpaper'. Kinto sets the photo as your phone's wallpaper (Home and Lock screens) and keeps its own copy, so Kinto Home shows that exact image without ever needing to read it back. If you later change your wallpaper outside Kinto, pick the new one there to re-sync. The layer test from 0.7.5 is still in the same card for wallpapers set elsewhere.",
+  "versionCode": 77,
+  "versionName": "0.7.7",
+  "apkPath": "/dmwintercsp/kinto-downloads/main/Kinto_0.7.7.apk.b64",
+  "sizeBytes": 327659,
+  "sha256": "258153014bdcb7c8c3af596e2f95627ef6d59430f8ca129ce1f41088c5b2d459",
+  "notes": "Wallpaper grows up. (1) Kinto now samples the colors of the wallpaper it shows and themes its accents, glow and the Lens from them, with light/dark ink chosen from the wallpaper's real brightness. (2) On foldables the Background card has a Cover screen / Main screen switch - each screen gets its own photo input, its own set-as-wallpaper action and its own saved copy. (3) Six built-in wallpapers, rendered by Kinto itself: Ember Fold, Basalt, Dawn, Deepwater, Ultraviolet, Moss & Slate - tap one to set it for the selected screen, colors sampled automatically.",
   "publishedAt": "2026-11-23"
 }

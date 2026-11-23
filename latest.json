@@ -1,9 +1,9 @@
 {
-  "versionCode": 73,
-  "versionName": "0.7.3",
-  "apkPath": "/dmwintercsp/kinto-downloads/main/Kinto_0.7.3.apk.b64",
-  "sizeBytes": 314563,
-  "sha256": "b14b785446b80cb6dd28d78ad21482ab084e928c490f270131d38c8bceebe98a",
-  "notes": "Wallpaper, rebuilt a third way. Window compositing alone did not show through on your Fold in 0.7.1/0.7.2, so 0.7.3 runs both paths at once: the system wallpaper is read directly and shown behind the app (any wallpaper type - the image is rasterized from whatever the system returns, not only bitmap wallpapers), and the window flag stays set as the second path. Folding or unfolding re-reads the wallpaper for the display in use. Appearance > Background now includes a 'Native check' line reporting the mode, the wallpaper image size and type, and the window flag, so if anything is still wrong it says exactly what. If Home is still dark after this, read me that Native check line and it will name the failing link.",
+  "versionCode": 74,
+  "versionName": "0.7.4",
+  "apkPath": "/dmwintercsp/kinto-downloads/main/Kinto_0.7.4.apk.b64",
+  "sizeBytes": 315599,
+  "sha256": "7d9dfd9312bcb999ed4c568423488653dfc8ec4c54ab4a742d480d135fcb0f03",
+  "notes": "Wallpaper read, diversified. Your Native check line showed the single wallpaper read was failing before it returned anything, so 0.7.4 tries four independent system paths in sequence - the Android 14 system-drawable read, the classic read, the fast preview read (which returns a live wallpaper's preview on many devices), and decoding the wallpaper file directly - each isolated so one failure cannot block the others. The Native check line in Appearance > Background now also shows a 'Read trail' naming which path delivered the image, or the exact failure each one hit, plus whether a live wallpaper is set. Everything else is unchanged from 0.7.3.",
   "publishedAt": "2026-11-23"
 }

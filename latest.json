@@ -1,9 +1,9 @@
 {
-  "versionCode": 75,
-  "versionName": "0.7.5",
-  "apkPath": "/dmwintercsp/kinto-downloads/main/Kinto_0.7.5.apk.b64",
-  "sizeBytes": 317103,
-  "sha256": "910670156e687b9e799d52f039850ef457cf41c79bea4cd07b22fe88f6b01468",
-  "notes": "Wallpaper, round three - now with the answer in hand. Your Read trail showed SecurityException from every read path, and that is documented Android 14+ behavior: no regular app may read the wallpaper image anymore, so Kinto can only show it through the window. This build adds a layer test in Appearance > Background: tap 'Run layer test' and watch - the screen empties to a bare window, then the page returns, then the Lens. Note the first stage where your wallpaper is not visible, or if it never appears. The Native check line also now reports whether Kinto is your default home app. Nothing else changes.",
+  "versionCode": 76,
+  "versionName": "0.7.6",
+  "apkPath": "/dmwintercsp/kinto-downloads/main/Kinto_0.7.6.apk.b64",
+  "sizeBytes": 319611,
+  "sha256": "98eba4bb5cc97c7675a11f50d0b08bd3907910e9163afa4355e3d5483e3c380d",
+  "notes": "New: set your wallpaper through Kinto. Android blocks apps from reading the wallpaper, but setting one is wide open - so Appearance > Background now has 'Pick a photo & set as wallpaper'. Kinto sets the photo as your phone's wallpaper (Home and Lock screens) and keeps its own copy, so Kinto Home shows that exact image without ever needing to read it back. If you later change your wallpaper outside Kinto, pick the new one there to re-sync. The layer test from 0.7.5 is still in the same card for wallpapers set elsewhere.",
   "publishedAt": "2026-11-23"
 }

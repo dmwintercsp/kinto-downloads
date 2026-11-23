@@ -1,9 +1,9 @@
 {
-  "versionCode": 74,
-  "versionName": "0.7.4",
-  "apkPath": "/dmwintercsp/kinto-downloads/main/Kinto_0.7.4.apk.b64",
-  "sizeBytes": 315599,
-  "sha256": "7d9dfd9312bcb999ed4c568423488653dfc8ec4c54ab4a742d480d135fcb0f03",
-  "notes": "Wallpaper read, diversified. Your Native check line showed the single wallpaper read was failing before it returned anything, so 0.7.4 tries four independent system paths in sequence - the Android 14 system-drawable read, the classic read, the fast preview read (which returns a live wallpaper's preview on many devices), and decoding the wallpaper file directly - each isolated so one failure cannot block the others. The Native check line in Appearance > Background now also shows a 'Read trail' naming which path delivered the image, or the exact failure each one hit, plus whether a live wallpaper is set. Everything else is unchanged from 0.7.3.",
+  "versionCode": 75,
+  "versionName": "0.7.5",
+  "apkPath": "/dmwintercsp/kinto-downloads/main/Kinto_0.7.5.apk.b64",
+  "sizeBytes": 317103,
+  "sha256": "910670156e687b9e799d52f039850ef457cf41c79bea4cd07b22fe88f6b01468",
+  "notes": "Wallpaper, round three - now with the answer in hand. Your Read trail showed SecurityException from every read path, and that is documented Android 14+ behavior: no regular app may read the wallpaper image anymore, so Kinto can only show it through the window. This build adds a layer test in Appearance > Background: tap 'Run layer test' and watch - the screen empties to a bare window, then the page returns, then the Lens. Note the first stage where your wallpaper is not visible, or if it never appears. The Native check line also now reports whether Kinto is your default home app. Nothing else changes.",
   "publishedAt": "2026-11-23"
 }

@@ -1,9 +1,9 @@
 {
-  "versionCode": 72,
-  "versionName": "0.7.2",
-  "apkPath": "/dmwintercsp/kinto-downloads/main/Kinto_0.7.2.apk.b64",
-  "sizeBytes": 313355,
-  "sha256": "95ad9202a1be418cfcfb02076ab36160ef3d2f6dae30926c014d5ad1d2a4a767",
-  "notes": "Fixes from your 0.7.1 video. Background: tapping Phone wallpaper or Kinto wallpaper in Appearance now takes you straight to Home with a confirmation, Appearance states which background is currently showing, and selections get the ember highlight + checkmark; native compositing hardened. Studio: opaque top bar and panel clear of the Home headline; while editing, the Lens you drag is the web Lens inside its outline (no ghosting); atmospheres renamed Basalt/Iris/Midnight/Daybreak. Horizon day taps no longer flash the blue system highlight; empty-state beads uniform. Reach labels spaced properly. Ask Kinto and Settings keep your scroll position. ChatGPT no longer truncates to 'Chat...'.",
+  "versionCode": 73,
+  "versionName": "0.7.3",
+  "apkPath": "/dmwintercsp/kinto-downloads/main/Kinto_0.7.3.apk.b64",
+  "sizeBytes": 314563,
+  "sha256": "b14b785446b80cb6dd28d78ad21482ab084e928c490f270131d38c8bceebe98a",
+  "notes": "Wallpaper, rebuilt a third way. Window compositing alone did not show through on your Fold in 0.7.1/0.7.2, so 0.7.3 runs both paths at once: the system wallpaper is read directly and shown behind the app (any wallpaper type - the image is rasterized from whatever the system returns, not only bitmap wallpapers), and the window flag stays set as the second path. Folding or unfolding re-reads the wallpaper for the display in use. Appearance > Background now includes a 'Native check' line reporting the mode, the wallpaper image size and type, and the window flag, so if anything is still wrong it says exactly what. If Home is still dark after this, read me that Native check line and it will name the failing link.",
   "publishedAt": "2026-11-23"
 }

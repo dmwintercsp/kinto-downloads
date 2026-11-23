@@ -1,9 +1,9 @@
 {
-  "versionCode": 69,
-  "versionName": "0.6.1",
-  "apkPath": "/dmwintercsp/kinto-downloads/main/Kinto_0.6.1.apk.b64",
-  "sizeBytes": 305703,
-  "sha256": "045b0a4b1669b8f5f950008c5ad38bf272dfc5c7d21af7a64f5140cec8395740",
-  "notes": "First update delivered by the in-app updater from GitHub. Same build as 0.6.0 (code 68) plus the GitHub update source - installing it proves the pipeline works.",
+  "versionCode": 70,
+  "versionName": "0.7.0",
+  "apkPath": "/dmwintercsp/kinto-downloads/main/Kinto_0.7.0.apk.b64",
+  "sizeBytes": 309107,
+  "sha256": "a59d6a480a0619f93571d07ecf615f85e9c947d38f6f04074731121d12247d45",
+  "notes": "The Kinto look: warm ink + ember replaces the Meridian design; Horizon layouts now show their structure on Home even when nothing is scheduled; Settings gains an always-visible back/close bar and the Lens steps aside inside Settings; Background choice in Appearance - phone wallpaper (default, never overwritten) or a Kinto atmosphere.",
   "publishedAt": "2026-11-23"
 }

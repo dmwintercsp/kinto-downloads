@@ -1,9 +1,9 @@
 {
-  "versionCode": 70,
-  "versionName": "0.7.0",
-  "apkPath": "/dmwintercsp/kinto-downloads/main/Kinto_0.7.0.apk.b64",
-  "sizeBytes": 309107,
-  "sha256": "a59d6a480a0619f93571d07ecf615f85e9c947d38f6f04074731121d12247d45",
-  "notes": "The Kinto look: warm ink + ember replaces the Meridian design; Horizon layouts now show their structure on Home even when nothing is scheduled; Settings gains an always-visible back/close bar and the Lens steps aside inside Settings; Background choice in Appearance - phone wallpaper (default, never overwritten) or a Kinto atmosphere.",
+  "versionCode": 71,
+  "versionName": "0.7.1",
+  "apkPath": "/dmwintercsp/kinto-downloads/main/Kinto_0.7.1.apk.b64",
+  "sizeBytes": 311571,
+  "sha256": "761c58b3625795750654f338cf84341a43514028dc7f3aac5df1bec95999fb33",
+  "notes": "Fixes from your 0.7.0 video: the app drawer's right rail is now one tick per letter (no more overlapping letters and dots); Phone wallpaper actually takes effect - the system wallpaper (static or live) now shows through the window, Kinto wallpaper still works as before; the Lens no longer appears over Settings after setup and sits out any full-screen surface; setup choices now visibly show what's selected (ember highlight + checkmark + a Selected line); and the setup order is fixed - Allow restricted settings now comes before Enable Kinto Assist, so Android no longer denies it on the first try. Setup is now 9 steps.",
   "publishedAt": "2026-11-23"
 }

@@ -1,8 +1,8 @@
 {
-  "versionCode": 80,
-  "versionName": "0.7.10",
-  "apkPath": "/dmwintercsp/kinto-downloads/main/Kinto_0.7.10.apk.b64",
-  "sha256": "2a359fff7c3a4c90098b8ced7c4a92ed3fb7b3d9c981b19f9f7e1987998add48",
-  "sizeBytes": 274311,
-  "notes": "Wallpaper now runs full-bleed: the image extends under the status and navigation bars, so the short bars at the top and bottom are gone, and its framing matches the system wallpaper exactly \u2014 app-to-home transitions no longer crossfade between two crops. The decoded wallpaper is also cached, so returning home no longer re-decodes it mid-transition. The Lens socket is now silicone: a thicker, matte gasket dyed from the wallpaper's own color, with soft wrap shading, a wide gentle well and only a faint satin lift \u2014 no machined rim, no gloss. Background's screen switch, palette and diagnostics now render live every time the page opens, so the Cover / Main switch can no longer be hidden by a stale page."
+  "versionCode": 81,
+  "versionName": "0.7.11",
+  "apkPath": "/dmwintercsp/kinto-downloads/main/Kinto_0.7.11.apk.b64",
+  "sha256": "09f2e9ca328dd983d5af88254b800cd9212f01f4d58010e9b502b789beba161b",
+  "sizeBytes": 274459,
+  "notes": "Full-bleed fix, corrected. In 0.7.10 the wallpaper layer was extended under the status and navigation bars, but the container was clipping every child to its inset padding \u2014 the extension was silently erased and the bars remained. The container no longer clips to its padding, and the wallpaper's margins are now driven by the phone's real window insets rather than framework dimensions, so Kinto's wallpaper framing matches One UI's exactly: the picture runs under the status icons and down to the gesture bar. The Lens keeps sampling the same framing, so its socket and refraction stay registered with the background."
 }

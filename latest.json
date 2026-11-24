@@ -1,8 +1,8 @@
 {
-  "versionCode": 83,
-  "versionName": "0.8.1",
-  "apkPath": "/dmwintercsp/kinto-downloads/main/Kinto_0.8.1.apk.b64",
-  "sha256": "d1252f0217dc373f47bfa2dfe26cb5db537c02d1ce39c9d6f65321c9a3189282",
-  "sizeBytes": 274747,
-  "notes": "New: Depth focus. Words baked into a wallpaper fight the interface \u2014 so when AI information comes to the front, the wallpaper now recedes. Open the Lens conversation or Reach and the background softens with a blur, dims, and pushes back with a slight scale, while the information surface gains a real cast shadow and the Lens itself stays optically sharp against the softened world. Close the surface and the wallpaper settles back, crisp and full-bleed. It animates only during the open and close \u2014 at rest nothing moves and nothing costs GPU. Turn it off under Appearance, Depth focus, if you prefer the wallpaper untouched."
+  "versionCode": 90,
+  "versionName": "0.9.0",
+  "apkPath": "/dmwintercsp/kinto-downloads/main/Kinto_0.9.0.apk.b64",
+  "sha256": "d110073503251fe1232510fdb261bd90e708365a1620884f2a8e68c80d7afd03",
+  "sizeBytes": 1270094,
+  "notes": "The Orb Compass arrives, with a new Orb. The provided Opal build replaces the old Lens entirely: an opal sphere in a baked silicone socket that samples your wallpaper, tilts toward your finger on springs, and sits still at rest. It is the Orb now \u2014 no user-facing Lens remains. Four pulls from the Orb: DOWN opens the Stream \u2014 what needs you, as sentences with provenance (Stage 1: notifications from people + your next calendar event; promo notifications are dismissed from the system shade as they arrive and counted honestly as handled silently). RIGHT opens Reach (a hold still works too). LEFT opens device controls \u2014 brightness, volume, ring mode, flashlight. UP opens Ask. Dragging previews each panel under your finger; release past halfway to commit, release early and it springs back."
 }

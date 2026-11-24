@@ -1,8 +1,8 @@
 {
-  "versionCode": 81,
-  "versionName": "0.7.11",
-  "apkPath": "/dmwintercsp/kinto-downloads/main/Kinto_0.7.11.apk.b64",
-  "sha256": "09f2e9ca328dd983d5af88254b800cd9212f01f4d58010e9b502b789beba161b",
-  "sizeBytes": 274459,
-  "notes": "Full-bleed fix, corrected. In 0.7.10 the wallpaper layer was extended under the status and navigation bars, but the container was clipping every child to its inset padding \u2014 the extension was silently erased and the bars remained. The container no longer clips to its padding, and the wallpaper's margins are now driven by the phone's real window insets rather than framework dimensions, so Kinto's wallpaper framing matches One UI's exactly: the picture runs under the status icons and down to the gesture bar. The Lens keeps sampling the same framing, so its socket and refraction stay registered with the background."
+  "versionCode": 82,
+  "versionName": "0.8.0",
+  "apkPath": "/dmwintercsp/kinto-downloads/main/Kinto_0.8.0.apk.b64",
+  "sha256": "43036709906911aef2a8fd3be4f3f8d2b849faf5878b6daf08646384d06b83b6",
+  "sizeBytes": 272687,
+  "notes": "Atmospheres are gone. Basalt, Iris, Midnight and Daybreak no longer exist as a separate color system \u2014 your wallpaper palette now controls the coloring of the entire launcher: the glass material is graded from the palette (deep swatch for the glass body, dominant for tint, your lead accent for the glow, light swatch for the edges), and every accent, edge, focus and muted tone in the interface derives from the same five swatches. The Background settings lose the Phone/Kinto wallpaper switch \u2014 your phone wallpaper is simply the background now \u2014 and Layout Studio's Surface tab points to the palette instead of atmosphere chips. Change the wallpaper or adjust the swatches and the whole launcher re-colors around them."
 }

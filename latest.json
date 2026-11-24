@@ -1,9 +1,9 @@
 {
-  "versionCode": 77,
-  "versionName": "0.7.7",
-  "apkPath": "/dmwintercsp/kinto-downloads/main/Kinto_0.7.7.apk.b64",
-  "sizeBytes": 327659,
-  "sha256": "258153014bdcb7c8c3af596e2f95627ef6d59430f8ca129ce1f41088c5b2d459",
-  "notes": "Wallpaper grows up. (1) Kinto now samples the colors of the wallpaper it shows and themes its accents, glow and the Lens from them, with light/dark ink chosen from the wallpaper's real brightness. (2) On foldables the Background card has a Cover screen / Main screen switch - each screen gets its own photo input, its own set-as-wallpaper action and its own saved copy. (3) Six built-in wallpapers, rendered by Kinto itself: Ember Fold, Basalt, Dawn, Deepwater, Ultraviolet, Moss & Slate - tap one to set it for the selected screen, colors sampled automatically.",
+  "versionCode": 78,
+  "versionName": "0.7.8",
+  "apkPath": "/dmwintercsp/kinto-downloads/main/Kinto_0.7.8.apk.b64",
+  "sizeBytes": 328783,
+  "sha256": "c3035f6ca3c2fafa0451540e0ba3c65146aebc9a8efa2010bb8b02aab7337254",
+  "notes": "The Lens gets its identity back. The orb no longer re-themes itself from the wallpaper: it is now a fixed, made object - deep warm ink glass, a machined bezel ring with a groove, one fixed light from the upper-left with a true specular glint, and an always-ember ribbon. The adaptation moved to the socket: the ring it sits in is now a shaded well carved from your actual background, wider than before, with hard contact shading at the seat, a soft cast shadow thrown lower-right, and a rim that brightens on the side facing the light. Same Lens on every wallpaper; a seat that belongs to each one.",
   "publishedAt": "2026-11-23"
 }

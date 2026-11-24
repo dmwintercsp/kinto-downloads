@@ -1,8 +1,8 @@
 {
-  "versionCode": 79,
-  "versionName": "0.7.9",
-  "apkPath": "/dmwintercsp/kinto-downloads/main/Kinto_0.7.9.apk.b64",
-  "sha256": "0177bfc834c17a87dd3a157620aad8cb25e809f38306e1a8d751340a602becfd",
-  "sizeBytes": 273351,
-  "notes": "Settings, rebuilt. The overview is now one calm list \u2014 a quiet status line, then plain rows separated by hairlines. No cards, no numbered indexes, no noise, and every setting lives on exactly one page. Appearance: your wallpaper now yields a five-swatch palette (dominant, vibrant, deep, light, muted) and those colors lead the whole interface \u2014 accents, glows, toggles and selections. Tap a swatch to make it the accent, use its dot to fine-tune that color, or return to the auto palette at any time. The Cover / Main screen switch sits at the top of Background and stays visible on foldables; diagnostics moved into a collapsed section at the bottom."
+  "versionCode": 80,
+  "versionName": "0.7.10",
+  "apkPath": "/dmwintercsp/kinto-downloads/main/Kinto_0.7.10.apk.b64",
+  "sha256": "2a359fff7c3a4c90098b8ced7c4a92ed3fb7b3d9c981b19f9f7e1987998add48",
+  "sizeBytes": 274311,
+  "notes": "Wallpaper now runs full-bleed: the image extends under the status and navigation bars, so the short bars at the top and bottom are gone, and its framing matches the system wallpaper exactly \u2014 app-to-home transitions no longer crossfade between two crops. The decoded wallpaper is also cached, so returning home no longer re-decodes it mid-transition. The Lens socket is now silicone: a thicker, matte gasket dyed from the wallpaper's own color, with soft wrap shading, a wide gentle well and only a faint satin lift \u2014 no machined rim, no gloss. Background's screen switch, palette and diagnostics now render live every time the page opens, so the Cover / Main switch can no longer be hidden by a stale page."
 }

@@ -1,8 +1,8 @@
 {
-  "versionCode": 90,
-  "versionName": "0.9.0",
-  "apkPath": "/dmwintercsp/kinto-downloads/main/Kinto_0.9.0.apk.b64",
-  "sha256": "d110073503251fe1232510fdb261bd90e708365a1620884f2a8e68c80d7afd03",
-  "sizeBytes": 1270094,
-  "notes": "The Orb Compass arrives, with a new Orb. The provided Opal build replaces the old Lens entirely: an opal sphere in a baked silicone socket that samples your wallpaper, tilts toward your finger on springs, and sits still at rest. It is the Orb now \u2014 no user-facing Lens remains. Four pulls from the Orb: DOWN opens the Stream \u2014 what needs you, as sentences with provenance (Stage 1: notifications from people + your next calendar event; promo notifications are dismissed from the system shade as they arrive and counted honestly as handled silently). RIGHT opens Reach (a hold still works too). LEFT opens device controls \u2014 brightness, volume, ring mode, flashlight. UP opens Ask. Dragging previews each panel under your finger; release past halfway to commit, release early and it springs back."
+  "versionCode": 91,
+  "versionName": "0.9.1",
+  "apkPath": "/dmwintercsp/kinto-downloads/main/Kinto_0.9.1.apk.b64",
+  "sha256": "e0e7711e9dc6619f602ecdca1fbad779ec4eb8a51bd0c3d3a6fb04528a5727b9",
+  "sizeBytes": 1270262,
+  "notes": "Debug fix for 0.9.0. The Opal Orb view was consuming every touch that started on the Orb, starving the button underneath that owns Kinto's gestures \u2014 tap, hold, and the Reach glide all went dead, and the compass inherited drags it could not complete. The Orb is a passive drawing surface again, exactly as the old overlay was: the button owns the gestures, its drag now drives the Orb's tilt through a bridge, and its press and hold drive the Orb's pressure. The compass is hooked into that same gesture stream \u2014 down for the Stream, left for device controls, up for Ask, with the Reach glide keeping rightward pulls. The socket's per-pixel bake also moved off the UI thread so folding or changing wallpaper cannot hitch the launcher. Plain tap on the Orb is now a no-op, per the Compass spec; hold or pull up to ask."
 }

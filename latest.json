@@ -1,9 +1,8 @@
 {
-  "versionCode": 78,
-  "versionName": "0.7.8",
-  "apkPath": "/dmwintercsp/kinto-downloads/main/Kinto_0.7.8.apk.b64",
-  "sizeBytes": 328783,
-  "sha256": "c3035f6ca3c2fafa0451540e0ba3c65146aebc9a8efa2010bb8b02aab7337254",
-  "notes": "The Lens gets its identity back. The orb no longer re-themes itself from the wallpaper: it is now a fixed, made object - deep warm ink glass, a machined bezel ring with a groove, one fixed light from the upper-left with a true specular glint, and an always-ember ribbon. The adaptation moved to the socket: the ring it sits in is now a shaded well carved from your actual background, wider than before, with hard contact shading at the seat, a soft cast shadow thrown lower-right, and a rim that brightens on the side facing the light. Same Lens on every wallpaper; a seat that belongs to each one.",
-  "publishedAt": "2026-11-23"
+  "versionCode": 79,
+  "versionName": "0.7.9",
+  "apkPath": "/dmwintercsp/kinto-downloads/main/Kinto_0.7.9.apk.b64",
+  "sha256": "0177bfc834c17a87dd3a157620aad8cb25e809f38306e1a8d751340a602becfd",
+  "sizeBytes": 273351,
+  "notes": "Settings, rebuilt. The overview is now one calm list \u2014 a quiet status line, then plain rows separated by hairlines. No cards, no numbered indexes, no noise, and every setting lives on exactly one page. Appearance: your wallpaper now yields a five-swatch palette (dominant, vibrant, deep, light, muted) and those colors lead the whole interface \u2014 accents, glows, toggles and selections. Tap a swatch to make it the accent, use its dot to fine-tune that color, or return to the auto palette at any time. The Cover / Main screen switch sits at the top of Background and stays visible on foldables; diagnostics moved into a collapsed section at the bottom."
 }

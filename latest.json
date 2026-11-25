@@ -1,8 +1,8 @@
 {
-  "versionCode": 91,
-  "versionName": "0.9.1",
-  "apkPath": "/dmwintercsp/kinto-downloads/main/Kinto_0.9.1.apk.b64",
-  "sha256": "e0e7711e9dc6619f602ecdca1fbad779ec4eb8a51bd0c3d3a6fb04528a5727b9",
-  "sizeBytes": 1270262,
-  "notes": "Debug fix for 0.9.0. The Opal Orb view was consuming every touch that started on the Orb, starving the button underneath that owns Kinto's gestures \u2014 tap, hold, and the Reach glide all went dead, and the compass inherited drags it could not complete. The Orb is a passive drawing surface again, exactly as the old overlay was: the button owns the gestures, its drag now drives the Orb's tilt through a bridge, and its press and hold drive the Orb's pressure. The compass is hooked into that same gesture stream \u2014 down for the Stream, left for device controls, up for Ask, with the Reach glide keeping rightward pulls. The socket's per-pixel bake also moved off the UI thread so folding or changing wallpaper cannot hitch the launcher. Plain tap on the Orb is now a no-op, per the Compass spec; hold or pull up to ask."
+  "versionCode": 92,
+  "versionName": "0.9.2",
+  "apkPath": "/dmwintercsp/kinto-downloads/main/Kinto_0.9.2.apk.b64",
+  "sha256": "ad3f1b79eca46bc3c8ffeea60465be986eead26a19d87efa925f7639247ecff8",
+  "sizeBytes": 1270598,
+  "notes": "Fix: the Orb could be invisible after returning Home from an app, appearing only when touched. The Orb now repaints its resting frame whenever Home comes back into view, its state is re-asserted on every return, and it repaints alongside the Home surface once the transition settles. Still a still object at rest \u2014 no animation added."
 }

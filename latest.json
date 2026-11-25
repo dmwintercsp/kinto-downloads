@@ -1,8 +1,8 @@
 {
-  "versionCode": 92,
-  "versionName": "0.9.2",
-  "apkPath": "/dmwintercsp/kinto-downloads/main/Kinto_0.9.2.apk.b64",
-  "sha256": "ad3f1b79eca46bc3c8ffeea60465be986eead26a19d87efa925f7639247ecff8",
-  "sizeBytes": 1270598,
-  "notes": "Fix: the Orb could be invisible after returning Home from an app, appearing only when touched. The Orb now repaints its resting frame whenever Home comes back into view, its state is re-asserted on every return, and it repaints alongside the Home surface once the transition settles. Still a still object at rest \u2014 no animation added."
+  "versionCode": 93,
+  "versionName": "0.9.3",
+  "apkPath": "/dmwintercsp/kinto-downloads/main/Kinto_0.9.3.apk.b64",
+  "sha256": "587748b3246bbe48ed869f31afb1002320d5cc4772c556f0caae09d17ad8d8ec",
+  "sizeBytes": 1275271,
+  "notes": "Opal 1.9: the Orb's glass is now a live pearl shader on newer Android \u2014 it samples your wallpaper like the socket does, leans toward your finger as you pull, and glows briefly when you let go. Its clock still only runs while you interact; at rest it is frozen and still. The socket's shading is softer, its color sampling truer. Also new: a Restart Kinto button in Settings \u2192 Launcher updates \u2014 a full process restart without digging through Android Settings."
 }

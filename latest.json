@@ -1,8 +1,8 @@
 {
-  "versionCode": 100,
-  "versionName": "0.10.0",
-  "apkPath": "/dmwintercsp/kinto-downloads/main/Kinto_0.10.0.apk.b64",
-  "sha256": "1d5169b0f86466743b0ac447bef19bbe3970c8d2be0158fc45625e5e93b9f8b5",
-  "sizeBytes": 2591876,
-  "notes": "New direction under the hood: the Infotainer pipeline. Notifications now also flow through an on-device intelligence layer \u2014 a rule filter drops media, silent system alerts, and duplicates, then Gemini Nano (on-device via AICore, nothing sent to any cloud) extracts the things worth tracking \u2014 tickets, flights, deliveries, bills, 2FA codes, messages that need you \u2014 into a local database. Kinto also appears in the share sheet now: share a confirmation email into Kinto and it is parsed the same way. No visible changes yet; surfacing and smart actions are the next steps."
+  "versionCode": 110,
+  "versionName": "0.11.0",
+  "apkPath": "/dmwintercsp/kinto-downloads/main/Kinto_0.11.0.apk.b64",
+  "sha256": "9993ec1af0053656890b7a94c0f91445f6496c0b3cf02c7c79c3f71699c574bc",
+  "sizeBytes": 2595008,
+  "notes": "Gesture upgrade. The left pull from the Orb no longer opens a panel: Brightness, Volume, Ring, and Flashlight fan out from the Orb like a folding fan, and the same drag selects \u2014 glide to a control to light it, slide up or down on Brightness or Volume to set it, release on the Flashlight to toggle it or on Ring to step it to its next mode. Release with nothing lit and nothing changes. New: a Kinto controls tile for Android's quick settings (Settings \u2192 Launcher updates \u2192 Add controls tile) opens the same fan from inside any app."
 }

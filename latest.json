@@ -1,8 +1,8 @@
 {
-  "versionCode": 120,
-  "versionName": "0.12.0",
-  "apkPath": "/dmwintercsp/kinto-downloads/main/Kinto_0.12.0.apk.b64",
-  "sha256": "25a186d6f0245afe1deb63cf8449fab9f49ae28db12ec0e75ae20aedc37e70bd",
-  "sizeBytes": 2597524,
-  "notes": "Defect pass from your Nov 24 recordings. Control Fan: the duplicate readout pill is gone \u2014 each blade is its own readout (icon + live value, name appears on the lit blade) and the fan tilts upward, clear of the dock. Reach: glide ghosting fixed (no more enter animation or backdrop blur on rows) and the hint now rides the top of the Reach zone instead of the dock. The layout switch bar and Reach dismiss each other, and the bar no longer swallows the Orb. The quick settings tile has a real icon and a subtitle. All Apps sits on a solid scrim so wallpaper art no longer strikes through rows, and Home text gets a soft shade so day labels stay readable over busy wallpaper."
+  "versionCode": 121,
+  "versionName": "0.12.1",
+  "apkPath": "/dmwintercsp/kinto-downloads/main/Kinto_0.12.1.apk.b64",
+  "sha256": "6b6aa3eb1faa98ff059b30e6915b6f8f9ad878aeef8e237ed0b6ea0b209d9b9e",
+  "sizeBytes": 2598192,
+  "notes": "PR #16 release: orb surface handoff, fan clearance, and Reach legibility. One surface owns the home screen at a time \u2014 previews and navigation dismiss competing surfaces, and a stray gesture is cancelled when you navigate away. The control fan now measures its expanded blades and the dock before laying out, so controls sit clear above the dock and the drag targets what you actually see. The Reach hint is anchored above the Reach zone with a solid backing, and Reach and Horizon text contrast is improved throughout."
 }

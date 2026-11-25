@@ -1,8 +1,8 @@
 {
-  "versionCode": 93,
-  "versionName": "0.9.3",
-  "apkPath": "/dmwintercsp/kinto-downloads/main/Kinto_0.9.3.apk.b64",
-  "sha256": "587748b3246bbe48ed869f31afb1002320d5cc4772c556f0caae09d17ad8d8ec",
-  "sizeBytes": 1275271,
-  "notes": "Opal 1.9: the Orb's glass is now a live pearl shader on newer Android \u2014 it samples your wallpaper like the socket does, leans toward your finger as you pull, and glows briefly when you let go. Its clock still only runs while you interact; at rest it is frozen and still. The socket's shading is softer, its color sampling truer. Also new: a Restart Kinto button in Settings \u2192 Launcher updates \u2014 a full process restart without digging through Android Settings."
+  "versionCode": 100,
+  "versionName": "0.10.0",
+  "apkPath": "/dmwintercsp/kinto-downloads/main/Kinto_0.10.0.apk.b64",
+  "sha256": "1d5169b0f86466743b0ac447bef19bbe3970c8d2be0158fc45625e5e93b9f8b5",
+  "sizeBytes": 2591876,
+  "notes": "New direction under the hood: the Infotainer pipeline. Notifications now also flow through an on-device intelligence layer \u2014 a rule filter drops media, silent system alerts, and duplicates, then Gemini Nano (on-device via AICore, nothing sent to any cloud) extracts the things worth tracking \u2014 tickets, flights, deliveries, bills, 2FA codes, messages that need you \u2014 into a local database. Kinto also appears in the share sheet now: share a confirmation email into Kinto and it is parsed the same way. No visible changes yet; surfacing and smart actions are the next steps."
 }

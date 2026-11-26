@@ -1,8 +1,8 @@
 {
-  "versionName": "0.16.0",
-  "versionCode": 129,
-  "apkPath": "/dmwintercsp/kinto-downloads/main/Kinto_0.16.0.apk.b64",
-  "sha256": "afe0c7163112b0342ad8d838eee7679bba3fc71eff65a209218a01ac071969a9",
-  "sizeBytes": 2612732,
-  "notes": "Up opens the app drawer now, and the AI surfaces are parked while Michael rethinks them: Ask is unreachable, AI Orb is out of Reach, the Intelligence settings are hidden, and the anywhere pie's fourth slice opens All apps. The controls fan pulls in close (smaller radius, nearer slider band, faster scrub) so every value is inside thumb reach. Reach fades and rises open and closed again \u2014 containers only, no return of the old ghosting."
+  "versionName": "0.16.1",
+  "versionCode": 130,
+  "apkPath": "/dmwintercsp/kinto-downloads/main/Kinto_0.16.1.apk.b64",
+  "sha256": "49eade947b3242a578a2f53e2e4c54b30aa91f96f494cd808b9289b3e1948817",
+  "sizeBytes": 2612884,
+  "notes": "Hotfix: Reach could stay invisible after closing \u2014 a leftover fade animation was never cleaned up and held the panel at zero opacity. Reach open/close now sweeps all panel animations on every open and close. Nothing else changes from 0.16.0: up opens the drawer, the AI surfaces stay parked, and the controls fan stays pulled into thumb reach."
 }

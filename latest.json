@@ -1,8 +1,8 @@
 {
-  "versionCode": 122,
-  "versionName": "0.12.2",
-  "apkPath": "/dmwintercsp/kinto-downloads/main/Kinto_0.12.2.apk.b64",
-  "sha256": "8b663f26594b38f5dcefda71e1f6147407a4cb54ec634fddb18598fca9b865f4",
-  "sizeBytes": 2598792,
-  "notes": "Control Fan focus fix. Choosing and adjusting are now separate: glide to a control and nothing changes while you aim; rest your thumb on a blade for a beat and it locks \u2014 a bright ring shows the grab \u2014 and from then until you lift, only that control can change, however far you slide. Passing over a neighbour on the way can no longer change it. Blades are also larger and solid with full-brightness values, so the controls read clearly against dark wallpaper."
+  "versionCode": 123,
+  "versionName": "0.12.3",
+  "apkPath": "/dmwintercsp/kinto-downloads/main/Kinto_0.12.3.apk.b64",
+  "sha256": "03394d7ca9c24256be68b07120cbe7e3fc3d20120284b555bb3823ca1195e273",
+  "sizeBytes": 2599372,
+  "notes": "Control Fan, continued: you no longer lift your thumb to switch controls. While one control is locked, pause on another blade for a beat and the lock hands over \u2014 Brightness, then Volume, then Ring in a single hold. And the value you are setting is now mirrored in a readout above the fan, where your thumb never covers it. Passing over a blade while moving still changes nothing; only a pause grabs."
 }

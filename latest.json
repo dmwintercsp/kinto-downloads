@@ -1,8 +1,8 @@
 {
-  "versionCode": 121,
-  "versionName": "0.12.1",
-  "apkPath": "/dmwintercsp/kinto-downloads/main/Kinto_0.12.1.apk.b64",
-  "sha256": "6b6aa3eb1faa98ff059b30e6915b6f8f9ad878aeef8e237ed0b6ea0b209d9b9e",
-  "sizeBytes": 2598192,
-  "notes": "PR #16 release: orb surface handoff, fan clearance, and Reach legibility. One surface owns the home screen at a time \u2014 previews and navigation dismiss competing surfaces, and a stray gesture is cancelled when you navigate away. The control fan now measures its expanded blades and the dock before laying out, so controls sit clear above the dock and the drag targets what you actually see. The Reach hint is anchored above the Reach zone with a solid backing, and Reach and Horizon text contrast is improved throughout."
+  "versionCode": 122,
+  "versionName": "0.12.2",
+  "apkPath": "/dmwintercsp/kinto-downloads/main/Kinto_0.12.2.apk.b64",
+  "sha256": "8b663f26594b38f5dcefda71e1f6147407a4cb54ec634fddb18598fca9b865f4",
+  "sizeBytes": 2598792,
+  "notes": "Control Fan focus fix. Choosing and adjusting are now separate: glide to a control and nothing changes while you aim; rest your thumb on a blade for a beat and it locks \u2014 a bright ring shows the grab \u2014 and from then until you lift, only that control can change, however far you slide. Passing over a neighbour on the way can no longer change it. Blades are also larger and solid with full-brightness values, so the controls read clearly against dark wallpaper."
 }

@@ -1,8 +1,8 @@
 {
-  "versionName": "0.16.1",
-  "versionCode": 130,
-  "apkPath": "/dmwintercsp/kinto-downloads/main/Kinto_0.16.1.apk.b64",
-  "sha256": "49eade947b3242a578a2f53e2e4c54b30aa91f96f494cd808b9289b3e1948817",
-  "sizeBytes": 2612884,
-  "notes": "Hotfix: Reach could stay invisible after closing \u2014 a leftover fade animation was never cleaned up and held the panel at zero opacity. Reach open/close now sweeps all panel animations on every open and close. Nothing else changes from 0.16.0: up opens the drawer, the AI surfaces stay parked, and the controls fan stays pulled into thumb reach."
+  "versionName": "0.16.2",
+  "versionCode": 131,
+  "apkPath": "/dmwintercsp/kinto-downloads/main/Kinto_0.16.2.apk.b64",
+  "sha256": "02dbed75f3d5339ce6c05ad2bf91af17dd0025cecd7d8b3718659d2a42966c81",
+  "sizeBytes": 2613112,
+  "notes": "Hotfix for 0.16.0/0.16.1: a startup crash killed the Orb gesture layer, so Reach (and Settings behind it) never opened. The crash is fixed and verified in a test harness before release: the app boots clean, Reach opens, Settings opens. Everything else from 0.16.0 stands \u2014 up opens the drawer, AI stays parked, the fan stays in thumb reach, and Reach keeps its open/close animation."
 }

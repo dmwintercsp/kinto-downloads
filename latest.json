@@ -1,8 +1,8 @@
 {
-  "versionCode": 128,
-  "versionName": "0.15.0",
-  "apkPath": "/dmwintercsp/kinto-downloads/main/Kinto_0.15.0.apk.b64",
-  "sha256": "2cd1b22e91a6508c598f653c6ea4a3faafdfa1ee07ab14db7f7a20adb281db17",
-  "sizeBytes": 2611304,
-  "notes": "The anywhere pie, rebuilt to Sensu's form: much larger and airier, with wide wedges and room to breathe. Brightness and Volume are no longer slices \u2014 they are arcs on the rim's two ends; grab one and sweep to set it. The centre shows the clock when idle and names what you're touching otherwise. The handle is now a slim 6dp pill. At Home, the fan's medallions are icon-only and spread wider, with the readout pill as the single label."
+  "versionName": "0.16.0",
+  "versionCode": 129,
+  "apkPath": "/dmwintercsp/kinto-downloads/main/Kinto_0.16.0.apk.b64",
+  "sha256": "afe0c7163112b0342ad8d838eee7679bba3fc71eff65a209218a01ac071969a9",
+  "sizeBytes": 2612732,
+  "notes": "Up opens the app drawer now, and the AI surfaces are parked while Michael rethinks them: Ask is unreachable, AI Orb is out of Reach, the Intelligence settings are hidden, and the anywhere pie's fourth slice opens All apps. The controls fan pulls in close (smaller radius, nearer slider band, faster scrub) so every value is inside thumb reach. Reach fades and rises open and closed again \u2014 containers only, no return of the old ghosting."
 }

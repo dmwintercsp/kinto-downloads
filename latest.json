@@ -1,8 +1,8 @@
 {
-  "versionCode": 124,
-  "versionName": "0.12.4",
-  "apkPath": "/dmwintercsp/kinto-downloads/main/Kinto_0.12.4.apk.b64",
-  "sha256": "f202ed8da41d090d81835a2712254593243eb83cc04eb35a6397b472ff199af0",
-  "sizeBytes": 2599284,
-  "notes": "Three fixes. The Control Fan now works the way you described it: slide sideways to open it, slide UP and DOWN to move between controls, slide SIDE TO SIDE to change the one you are on \u2014 moving between controls can never change a value, and the ringer steps through its modes as you slide, so you can see it change. The Orb now restores itself when you come back to the launcher instead of waiting for a touch. And the dark phantom shape behind Reach was a shadow cast by its invisible container \u2014 removed."
+  "versionCode": 125,
+  "versionName": "0.12.5",
+  "apkPath": "/dmwintercsp/kinto-downloads/main/Kinto_0.12.5.apk.b64",
+  "sha256": "d84b957a1cf01575921e41711e3e394c838afd5a27b556f504f205cfc4222893",
+  "sizeBytes": 2599848,
+  "notes": "Control Fan fixes. The flashlight can no longer fire just from opening the fan: nothing responds until you steer up or down or pause for a beat, and the column is flipped \u2014 Brightness is now first, nearest your thumb, and the flashlight is last, at the top. Volume now tracks your thumb like Brightness does: it has far fewer steps, and small movements were being rounded away before they could add up; the scrub now accumulates them properly."
 }

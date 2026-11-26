@@ -1,8 +1,8 @@
 {
-  "versionCode": 126,
-  "versionName": "0.13.0",
-  "apkPath": "/dmwintercsp/kinto-downloads/main/Kinto_0.13.0.apk.b64",
-  "sha256": "f40add43b0b61c8bd373aa00bf0ab62f2083d0414ee224dccb108ead0659e6ee",
-  "sizeBytes": 2600468,
-  "notes": "The system controls are now a Sensu-style pie. Pull left from the Orb and the controls spread along an arc around your thumb: sweep to a slice and let go \u2014 the flashlight and ringer fire on release, so opening the pie never sets anything off. Brightness and Volume bend round the pie: push out past the ring and sweep to set them. Make it yours in Settings > Home & Orb > System controls fan: reorder the slices, hide ones you don't use, pick the fan size."
+  "versionCode": 127,
+  "versionName": "0.14.0",
+  "apkPath": "/dmwintercsp/kinto-downloads/main/Kinto_0.14.0.apk.b64",
+  "sha256": "7559fcf76ab8c1bee0a6701107a938eb8e1d09d119498948792f0344bc599ea8",
+  "sizeBytes": 2610784,
+  "notes": "Controls anywhere: one pie instead of two panels. Turn it on in Settings > Device & setup > Controls anywhere and a small handle waits at the screen edge in every app. Grab it and sweep: brightness, volume, ringer and flashlight around your thumb, plus Reach and Ask slices that bring Kinto forward. The Kinto controls tile opens the pie where you are, and the Orb's left pull summons the same pie at Home. The in-app fan's slices are clean icon medallions now, too."
 }

@@ -1,8 +1,8 @@
 {
-  "versionCode": 127,
-  "versionName": "0.14.0",
-  "apkPath": "/dmwintercsp/kinto-downloads/main/Kinto_0.14.0.apk.b64",
-  "sha256": "7559fcf76ab8c1bee0a6701107a938eb8e1d09d119498948792f0344bc599ea8",
-  "sizeBytes": 2610784,
-  "notes": "Controls anywhere: one pie instead of two panels. Turn it on in Settings > Device & setup > Controls anywhere and a small handle waits at the screen edge in every app. Grab it and sweep: brightness, volume, ringer and flashlight around your thumb, plus Reach and Ask slices that bring Kinto forward. The Kinto controls tile opens the pie where you are, and the Orb's left pull summons the same pie at Home. The in-app fan's slices are clean icon medallions now, too."
+  "versionCode": 128,
+  "versionName": "0.15.0",
+  "apkPath": "/dmwintercsp/kinto-downloads/main/Kinto_0.15.0.apk.b64",
+  "sha256": "2cd1b22e91a6508c598f653c6ea4a3faafdfa1ee07ab14db7f7a20adb281db17",
+  "sizeBytes": 2611304,
+  "notes": "The anywhere pie, rebuilt to Sensu's form: much larger and airier, with wide wedges and room to breathe. Brightness and Volume are no longer slices \u2014 they are arcs on the rim's two ends; grab one and sweep to set it. The centre shows the clock when idle and names what you're touching otherwise. The handle is now a slim 6dp pill. At Home, the fan's medallions are icon-only and spread wider, with the readout pill as the single label."
 }

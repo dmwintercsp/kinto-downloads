@@ -1,8 +1,8 @@
 {
-  "versionCode": 123,
-  "versionName": "0.12.3",
-  "apkPath": "/dmwintercsp/kinto-downloads/main/Kinto_0.12.3.apk.b64",
-  "sha256": "03394d7ca9c24256be68b07120cbe7e3fc3d20120284b555bb3823ca1195e273",
-  "sizeBytes": 2599372,
-  "notes": "Control Fan, continued: you no longer lift your thumb to switch controls. While one control is locked, pause on another blade for a beat and the lock hands over \u2014 Brightness, then Volume, then Ring in a single hold. And the value you are setting is now mirrored in a readout above the fan, where your thumb never covers it. Passing over a blade while moving still changes nothing; only a pause grabs."
+  "versionCode": 124,
+  "versionName": "0.12.4",
+  "apkPath": "/dmwintercsp/kinto-downloads/main/Kinto_0.12.4.apk.b64",
+  "sha256": "f202ed8da41d090d81835a2712254593243eb83cc04eb35a6397b472ff199af0",
+  "sizeBytes": 2599284,
+  "notes": "Three fixes. The Control Fan now works the way you described it: slide sideways to open it, slide UP and DOWN to move between controls, slide SIDE TO SIDE to change the one you are on \u2014 moving between controls can never change a value, and the ringer steps through its modes as you slide, so you can see it change. The Orb now restores itself when you come back to the launcher instead of waiting for a touch. And the dark phantom shape behind Reach was a shadow cast by its invisible container \u2014 removed."
 }

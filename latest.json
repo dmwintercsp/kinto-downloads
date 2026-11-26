@@ -1,8 +1,8 @@
 {
-  "versionCode": 125,
-  "versionName": "0.12.5",
-  "apkPath": "/dmwintercsp/kinto-downloads/main/Kinto_0.12.5.apk.b64",
-  "sha256": "d84b957a1cf01575921e41711e3e394c838afd5a27b556f504f205cfc4222893",
-  "sizeBytes": 2599848,
-  "notes": "Control Fan fixes. The flashlight can no longer fire just from opening the fan: nothing responds until you steer up or down or pause for a beat, and the column is flipped \u2014 Brightness is now first, nearest your thumb, and the flashlight is last, at the top. Volume now tracks your thumb like Brightness does: it has far fewer steps, and small movements were being rounded away before they could add up; the scrub now accumulates them properly."
+  "versionCode": 126,
+  "versionName": "0.13.0",
+  "apkPath": "/dmwintercsp/kinto-downloads/main/Kinto_0.13.0.apk.b64",
+  "sha256": "f40add43b0b61c8bd373aa00bf0ab62f2083d0414ee224dccb108ead0659e6ee",
+  "sizeBytes": 2600468,
+  "notes": "The system controls are now a Sensu-style pie. Pull left from the Orb and the controls spread along an arc around your thumb: sweep to a slice and let go \u2014 the flashlight and ringer fire on release, so opening the pie never sets anything off. Brightness and Volume bend round the pie: push out past the ring and sweep to set them. Make it yours in Settings > Home & Orb > System controls fan: reorder the slices, hide ones you don't use, pick the fan size."
 }

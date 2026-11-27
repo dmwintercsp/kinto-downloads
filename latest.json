@@ -1,8 +1,8 @@
 {
-  "versionName": "0.18.5",
-  "versionCode": 139,
-  "apkPath": "/dmwintercsp/kinto-downloads/main/Kinto_0.18.5.apk.b64",
-  "sha256": "2bfe784d2052acc37368313a080449012134251239be10bf1fda51c0414057cd",
-  "sizeBytes": 2685465,
-  "notes": "0.18.5 - PR #20 test build (stacked on PRs #17-#19, none merged). The Opal orb moves into the pie: the hub draws the orb from a shared sprite atlas whose reflections turn with your thumb, over the clock at rest and the selected control during a gesture. The dock's center button becomes an Apps glyph - a plain tap now opens the app drawer, and the native orb overlay is gone (the socket renderer stays in the tree, unused). Wedges restyled: the selected slice is dark slate with an ember arc on its outer edge instead of the cream fill. Everything from 0.18.1-0.18.4 rides along: animated-geometry selection, two-window overlay, handle editor, slices editor, opening speeds, cancel at the edge."
+  "versionName": "0.18.6",
+  "versionCode": 140,
+  "apkPath": "/dmwintercsp/kinto-downloads/main/Kinto_0.18.6.apk.b64",
+  "sha256": "75a5c949e9c2d15ab6c25fd5e682591e51ab18250229c62f96ded90251429e56",
+  "sizeBytes": 2686177,
+  "notes": "0.18.6 - PR #21 test build (stacked on PRs #17-#20, none merged). Controls anywhere gains Ring layouts: save the pie's current slice set and order under a name, then switch between layouts with one tap. Three presets ship in the box - Everyday (all four slices), Device controls (torch + ring), Launcher (Reach + All apps). Saved layouts live on the phone; removing one never changes the slices you're using. Applying a layout drives both the overlay pie and the Home pie through the same setting. Find it in Settings > Device & setup > Controls anywhere, as a Ring layouts section above Slices. Everything from 0.18.5 rides along, including the Opal orb in the pie hub."
 }

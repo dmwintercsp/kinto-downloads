@@ -1,8 +1,8 @@
 {
-  "versionName": "0.17.1",
-  "versionCode": 133,
-  "apkPath": "/dmwintercsp/kinto-downloads/main/Kinto_0.17.1.apk.b64",
-  "sha256": "d6798af10ac794f3b9823f631f2ae32ca61f97376f1580e916b347c57a45c5f3",
-  "sizeBytes": 2617040,
-  "notes": "Fix for the anywhere handle: swiping in from the edge was being claimed by Android's Back gesture, so only a swipe up along the edge opened the pie. The handle now formally claims its strip of the edge from gesture navigation (and releases it while the pie is open, so Back still escapes). Also: tapping the handle now parks the pie instead of blinking it, and if a gesture is interrupted mid-grab the pie stays up parked rather than retracting."
+  "versionName": "0.18.0",
+  "versionCode": 134,
+  "apkPath": "/dmwintercsp/kinto-downloads/main/Kinto_0.18.0.apk.b64",
+  "sha256": "751efd8781c2f1e635ca402cdab0955f314a27a479e0e13e2f821c000225daae",
+  "sizeBytes": 2617612,
+  "notes": "The pie now fans, and the sliders live on the rim \u2014 rebuilt from Michael's Sensu reference. On open, the slices start bunched toward the handle and rotate open into place with a spring settle; you can slide onto a slice while it blooms. Brightness and volume are now one band around the outer rim, meeting at the crown \u2014 ride the rim to scrub, with a full arc sweep covering about the full range. Everything else (tap to park, edge claim, centre readout) carries over."
 }

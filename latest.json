@@ -1,8 +1,8 @@
 {
-  "versionName": "0.18.2",
-  "versionCode": 136,
-  "apkPath": "/dmwintercsp/kinto-downloads/main/Kinto_0.18.2.apk.b64",
-  "sha256": "ef2107a9fb0670839667631fdab3fa31a4c1d2c1728ecf381f2076c4f4d16bfb",
-  "sizeBytes": 2618620,
-  "notes": "TEST BUILD \u2014 PR #17's new commit, pushed to the updater at Michael's request. The anywhere-controls overlay is rebuilt as two windows: a small permanent handle, and a separate full-screen pie window created at its final position when you grab the handle \u2014 the old design morphed one window mid-gesture, which is what made Android cancel swipes and forced the workarounds. The handle forwards your gesture to the pie; a release before the pie's first frame just parks it. Selection following the fan, the rim baseline and the centre dead zone from the previous test build are all kept."
+  "versionName": "0.18.3",
+  "versionCode": 137,
+  "apkPath": "/dmwintercsp/kinto-downloads/main/Kinto_0.18.3.apk.b64",
+  "sha256": "b19793cc0b5ea94159cdba2a48a7ea40dd6512b60de49d00ebaf3ee864e25a33",
+  "sizeBytes": 2620084,
+  "notes": "TEST BUILD \u2014 PR #18 (stacked on PR #17), pushed to the updater at Michael's request. Settings -> Controls anywhere gains a live handle editor: Length, Thickness, Height on screen and Visibility sliders with a preview that updates as you drag, saved when you release. The overlay handle, the Home side tab and the pie's parked position all read the same saved values, and the handle window resizes itself the moment you change them. Everything from the 0.18.2 test build (two-window overlay, selection following the fan, rim baseline) is included."
 }

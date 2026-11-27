@@ -2,7 +2,7 @@
   "versionName": "0.18.5",
   "versionCode": 139,
   "apkPath": "/dmwintercsp/kinto-downloads/main/Kinto_0.18.5.apk.b64",
-  "apkSha256": "2bfe784d2052acc37368313a080449012134251239be10bf1fda51c0414057cd",
-  "apkSize": 2685465,
+  "sha256": "2bfe784d2052acc37368313a080449012134251239be10bf1fda51c0414057cd",
+  "sizeBytes": 2685465,
   "notes": "0.18.5 - PR #20 test build (stacked on PRs #17-#19, none merged). The Opal orb moves into the pie: the hub draws the orb from a shared sprite atlas whose reflections turn with your thumb, over the clock at rest and the selected control during a gesture. The dock's center button becomes an Apps glyph - a plain tap now opens the app drawer, and the native orb overlay is gone (the socket renderer stays in the tree, unused). Wedges restyled: the selected slice is dark slate with an ember arc on its outer edge instead of the cream fill. Everything from 0.18.1-0.18.4 rides along: animated-geometry selection, two-window overlay, handle editor, slices editor, opening speeds, cancel at the edge."
 }

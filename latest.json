@@ -1,8 +1,8 @@
 {
-  "versionName": "0.18.4",
-  "versionCode": 138,
-  "apkPath": "/dmwintercsp/kinto-downloads/main/Kinto_0.18.4.apk.b64",
-  "sha256": "7551aadfc168e2b16b62c86b167875763e99839e528d9b31eb91f281ec9feda6",
-  "sizeBytes": 2621620,
-  "notes": "TEST BUILD \u2014 PR #19 (stacked on #18 and #17), pushed to the updater at Michael's request. Controls anywhere gains a Slices editor: reorder the pie's slices, remove the ones you don't use, add them back \u2014 the last slice can't be removed, and an empty set falls back to all four. Your slice set and the new opening-speed setting (Standard, Fast, Instant) apply to both the overlay pie and the Home pie. Also new: drag in and slide back to the edge to cancel the pie instead of firing; a plain tap still parks it. Everything from 0.18.3 is included."
+  "versionName": "0.18.5",
+  "versionCode": 139,
+  "apkPath": "/dmwintercsp/kinto-downloads/main/Kinto_0.18.5.apk.b64",
+  "apkSha256": "2bfe784d2052acc37368313a080449012134251239be10bf1fda51c0414057cd",
+  "apkSize": 2685465,
+  "notes": "0.18.5 - PR #20 test build (stacked on PRs #17-#19, none merged). The Opal orb moves into the pie: the hub draws the orb from a shared sprite atlas whose reflections turn with your thumb, over the clock at rest and the selected control during a gesture. The dock's center button becomes an Apps glyph - a plain tap now opens the app drawer, and the native orb overlay is gone (the socket renderer stays in the tree, unused). Wedges restyled: the selected slice is dark slate with an ember arc on its outer edge instead of the cream fill. Everything from 0.18.1-0.18.4 rides along: animated-geometry selection, two-window overlay, handle editor, slices editor, opening speeds, cancel at the edge."
 }

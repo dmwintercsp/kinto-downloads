@@ -1,8 +1,8 @@
 {
-  "versionName": "0.18.1",
-  "versionCode": 135,
-  "apkPath": "/dmwintercsp/kinto-downloads/main/Kinto_0.18.1.apk.b64",
-  "sha256": "59eb0b42048735a3c1ab6da313a0a0eaf73466656e2d1d1cbf942dc55638007f",
-  "sizeBytes": 2618264,
-  "notes": "TEST BUILD \u2014 PR #17 (fix/sensu-continuous-gesture), pushed to the updater at Michael's request. Selection now follows the fan as it opens: the slice drawn under your thumb is the one selected, and the highlight tracks the bloom even if your thumb stays still. Landing on the brightness/volume rim no longer jumps the value \u2014 it only changes once you slide along the rim. Releasing on the rim does not fire a slice, and the centre is a dead zone. Built and harness-verified by Muse; nothing merged yet."
+  "versionName": "0.18.2",
+  "versionCode": 136,
+  "apkPath": "/dmwintercsp/kinto-downloads/main/Kinto_0.18.2.apk.b64",
+  "sha256": "ef2107a9fb0670839667631fdab3fa31a4c1d2c1728ecf381f2076c4f4d16bfb",
+  "sizeBytes": 2618620,
+  "notes": "TEST BUILD \u2014 PR #17's new commit, pushed to the updater at Michael's request. The anywhere-controls overlay is rebuilt as two windows: a small permanent handle, and a separate full-screen pie window created at its final position when you grab the handle \u2014 the old design morphed one window mid-gesture, which is what made Android cancel swipes and forced the workarounds. The handle forwards your gesture to the pie; a release before the pie's first frame just parks it. Selection following the fan, the rim baseline and the centre dead zone from the previous test build are all kept."
 }

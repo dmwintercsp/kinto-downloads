@@ -1,8 +1,8 @@
 {
-  "versionName": "0.18.0",
-  "versionCode": 134,
-  "apkPath": "/dmwintercsp/kinto-downloads/main/Kinto_0.18.0.apk.b64",
-  "sha256": "751efd8781c2f1e635ca402cdab0955f314a27a479e0e13e2f821c000225daae",
-  "sizeBytes": 2617612,
-  "notes": "The pie now fans, and the sliders live on the rim \u2014 rebuilt from Michael's Sensu reference. On open, the slices start bunched toward the handle and rotate open into place with a spring settle; you can slide onto a slice while it blooms. Brightness and volume are now one band around the outer rim, meeting at the crown \u2014 ride the rim to scrub, with a full arc sweep covering about the full range. Everything else (tap to park, edge claim, centre readout) carries over."
+  "versionName": "0.18.1",
+  "versionCode": 135,
+  "apkPath": "/dmwintercsp/kinto-downloads/main/Kinto_0.18.1.apk.b64",
+  "sha256": "59eb0b42048735a3c1ab6da313a0a0eaf73466656e2d1d1cbf942dc55638007f",
+  "sizeBytes": 2618264,
+  "notes": "TEST BUILD \u2014 PR #17 (fix/sensu-continuous-gesture), pushed to the updater at Michael's request. Selection now follows the fan as it opens: the slice drawn under your thumb is the one selected, and the highlight tracks the bloom even if your thumb stays still. Landing on the brightness/volume rim no longer jumps the value \u2014 it only changes once you slide along the rim. Releasing on the rim does not fire a slice, and the centre is a dead zone. Built and harness-verified by Muse; nothing merged yet."
 }

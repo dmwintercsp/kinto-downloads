@@ -1,8 +1,8 @@
 {
-  "versionName": "0.17.0",
-  "versionCode": 132,
-  "apkPath": "/dmwintercsp/kinto-downloads/main/Kinto_0.17.0.apk.b64",
-  "sha256": "f1f86a8b18f311c1d35be7760a2b8c4ed01eb47303ad88afc041e0f91575dc2d",
-  "sizeBytes": 2616832,
-  "notes": "The Sensu route: Home now has a slim edge tab \u2014 swipe in from the edge and the controls pie blooms where your thumb lands. Slide onto Flashlight, Ring, Reach or All apps and let go; grab the rim arcs to scrub brightness (bottom) and volume (top); the centre shows the clock, or the control you're on. Same pie as Controls anywhere, same sizes and feel. The Orb's left pull opens it too; the old fan is retired. Tab side follows the Controls anywhere handle side; turn the tab off in Settings > Device & setup > Controls anywhere."
+  "versionName": "0.17.1",
+  "versionCode": 133,
+  "apkPath": "/dmwintercsp/kinto-downloads/main/Kinto_0.17.1.apk.b64",
+  "sha256": "d6798af10ac794f3b9823f631f2ae32ca61f97376f1580e916b347c57a45c5f3",
+  "sizeBytes": 2617040,
+  "notes": "Fix for the anywhere handle: swiping in from the edge was being claimed by Android's Back gesture, so only a swipe up along the edge opened the pie. The handle now formally claims its strip of the edge from gesture navigation (and releases it while the pie is open, so Back still escapes). Also: tapping the handle now parks the pie instead of blinking it, and if a gesture is interrupted mid-grab the pie stays up parked rather than retracting."
 }

@@ -1,8 +1,8 @@
 {
-  "versionName": "0.18.7",
-  "versionCode": 141,
-  "apkPath": "/dmwintercsp/kinto-downloads/main/Kinto_0.18.7.apk.b64",
-  "sha256": "60f508e4b4e7da2e3e025dbaa50ed3aae1d99a7a4c7e3038f2a034920fac33da",
-  "sizeBytes": 2687169,
-  "notes": "0.18.7 - PR #22 test build (stacked on PRs #17-#21, none merged). Two things. First, honest controls: brightness and ringer writes now report whether Android actually applied them - the old window-only brightness fallback that pretended to work is gone. If a write is blocked, the control snaps back and a message names the missing grant; Settings > Controls anywhere has a new Android access block linking straight to the Modify system settings and Do Not Disturb access screens. Expect the first brightness drag to ask for that grant once. Second, apps join the pie: long-press an app in the drawer and choose Add to pie (up to 12 slices) - it launches from both pies, shows its real icon in the overlay, and can ride in your ring layouts."
+  "versionName": "0.18.8",
+  "versionCode": 142,
+  "apkPath": "/dmwintercsp/kinto-downloads/main/Kinto_0.18.8.apk.b64",
+  "sha256": "8fbb14c688d86e88e639e62ef6a5df348c6cf9b6d7d12e16611a3362021a6c28",
+  "sizeBytes": 2689141,
+  "notes": "0.18.8 - PR #23 test build (stacked on PRs #17-#22, none merged). The Slices editor's Add buttons become a picker: open Add a slice under Slices and search across three tabs. Actions adds eight Android destinations - Wi-Fi, Bluetooth, sound, display and location settings, battery, data usage, and alarms. Apps is the add-an-app flow from 0.18.7. Shortcuts expands any app to show the shortcuts it publishes and pins one as a slice (needs Kinto as your default Home app). Entries already in the pie are marked and the 12-slice cap is enforced in the picker too. Both pies fire all three kinds. Everything from 0.18.7 rides along, including honest brightness and ringer controls with the Android access links."
 }

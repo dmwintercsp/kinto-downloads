@@ -1,8 +1,8 @@
 {
-  "versionName": "0.19.0",
-  "versionCode": 145,
-  "apkPath": "/dmwintercsp/kinto-downloads/main/Kinto_0.19.0.apk.b64",
-  "sha256": "2a30aa03413ced84da1dccbf062102ed4165b31738acb4a5cf5a23ba2c37f41a",
-  "sizeBytes": 2698205,
-  "notes": "Kinto 0.19.0 - built from release commit e87dbc4 on kinto-0.6-native-lens. Rolls up the pie work: Sensu-style selection and rim scrubbing, the two-window overlay, the edge handle editor, slice and ring-layout editors, the Opal hub, honest device controls with app, system and shortcut slices, the transparent wheel, and Favorites/Recents app rings. Settings is reorganized with search and a dedicated Edge controls screen, and Scenes are retired. New in this release: timed navigation wedges (Back, Home, Recents, Previous, Assistant), a practice mode, editable named rings, slice-selection preview with capacity and confirmation, directional flick and haptic preferences across both wheels, and settings motion polish."
+  "versionName": "0.19.1",
+  "versionCode": 146,
+  "apkPath": "/dmwintercsp/kinto-downloads/main/Kinto_0.19.1.apk.b64",
+  "sha256": "c09e3867258571d153a0387b1e7968d3fd5856ca7197333bb0c2de87a7460a18",
+  "sizeBytes": 2700297,
+  "notes": "0.19.1 - PR #27 test build (on the 0.19.0 release, PR not merged). Edge controls becomes a workspace: a dashboard with dedicated Slices, Rings, Sliders, Look, Handle and Edge settings screens, a bottom tab bar, and a Practice screen where you swipe in from a grip and rehearse the wheel without firing anything. The dashboard rolls up any missing Android grants under 'need attention'. The editor preview and the Home wheel now share the same drawing code, so the preview is the real wheel - your slices, app buttons, orb and rim levels included. Existing preferences carry over."
 }

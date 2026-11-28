@@ -1,8 +1,8 @@
 {
-  "versionName": "0.18.10",
-  "versionCode": 144,
-  "apkPath": "/dmwintercsp/kinto-downloads/main/Kinto_0.18.10.apk.b64",
-  "sha256": "b4742929653297a18d429115f02e265b388692906bf715cabb70a29727fd2094",
-  "sizeBytes": 2688713,
-  "notes": "0.18.10 - PR #26 test build (stacked on PRs #17-#25, none merged). Settings is reorganized: a search box at the top, and the index grouped into Personalization (Horizon, Layout Studio, Appearance), Navigation (Edge controls, Workspace, Apps & navigation) and System (Device & setup, Updates). Controls anywhere moves to its own Edge controls screen. Scenes are retired: the Scene Architect, its Home and Reach entry points, and scene restoration are removed; a previously saved scene is simply ignored. The pie, rings and slice editors are unchanged - the picker's app list now comes from a Scenes-free helper."
+  "versionName": "0.19.0",
+  "versionCode": 145,
+  "apkPath": "/dmwintercsp/kinto-downloads/main/Kinto_0.19.0.apk.b64",
+  "sha256": "2a30aa03413ced84da1dccbf062102ed4165b31738acb4a5cf5a23ba2c37f41a",
+  "sizeBytes": 2698205,
+  "notes": "Kinto 0.19.0 - built from release commit e87dbc4 on kinto-0.6-native-lens. Rolls up the pie work: Sensu-style selection and rim scrubbing, the two-window overlay, the edge handle editor, slice and ring-layout editors, the Opal hub, honest device controls with app, system and shortcut slices, the transparent wheel, and Favorites/Recents app rings. Settings is reorganized with search and a dedicated Edge controls screen, and Scenes are retired. New in this release: timed navigation wedges (Back, Home, Recents, Previous, Assistant), a practice mode, editable named rings, slice-selection preview with capacity and confirmation, directional flick and haptic preferences across both wheels, and settings motion polish."
 }
